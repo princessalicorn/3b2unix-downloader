@@ -9,4 +9,4 @@ Will add a couple more features soon, such as choosing between curl/wget
 
 # How to use this software?
 
-Simply download the shell file and execute it. Soon you should at an installation prompt.
+Simply download the shell file and execute it. Soon you should be at an installation prompt.
