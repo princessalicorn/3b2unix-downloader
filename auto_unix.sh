@@ -39,7 +39,7 @@ function download_prompt() {
         esac
     done    
     git clone https://github.com/simh/simh "$DIR_LOCATION/simh" || echo "Git failed to clone this repository"
-    wget https://archives.loomcom.com/3b2/emulator/boot.ini -P $DIR_LOCATION || echo "Failed to fetch boot.ini"
+    wget https://raw.githubusercontent.com/princessalicorn/3b2unix-downloader/main/boot.ini -P $DIR_LOCATION || echo "Failed to fetch boot.ini"
 }
 
 function build_simulator() {
